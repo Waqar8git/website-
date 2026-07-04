@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Registration</title>
+</head>
+<body bgcolor="grey">
+
+    <!-- Navigation Menu at Top -->
+    <a href="home.html">Home</a> | 
+    <a href="images.html">Images</a> | 
+    <a href="audios.html">Audios</a> | 
+    <a href="videos.html">Videos</a> | 
+    <a href="registration.html">Registration</a> | 
+    <a href="table.html">Table</a>
+    <br><hr><br>
+
+    <h1 align="center">Student Registration Form</h1>
+    <p align="center">Please complete the registration form below by entering your required information.<br>
+All fields are organized neatly in a table for easy use.<br>
+This form allows users to register and provide details about their interests and preferences.<br>
+After filling in all the required fields, submit the form to complete your registration.
+</p>
+    <br>
+
+    <!-- Complete Registration Form Inside an HTML Table Layout -->
+    <form action="#" method="post">
+        <table border="1" cellpadding="8" cellspacing="0" align="center" width="50%">
+            <tr>
+                <td><b>Name:</b></td>
+                <td><input type="text" name="student_name" required></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><input type="email" name="student_email" required></td>
+            </tr>
+            <tr>
+                <td><b>Password:</b></td>
+                <td><input type="password" name="student_pass" required></td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b></td>
+                <td>
+                    <input type="radio" id="m" name="gender" value="Male" checked> <label for="m">Male</label>
+                    <input type="radio" id="f" name="gender" value="Female"> <label for="f">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Country:</b></td>
+                <td>
+                    <select name="country">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Language Selection:</b></td>
+                <td>
+                    <input type="checkbox" id="l1" name="lang" value="English"> <label for="l1">English</label>
+                    <input type="checkbox" id="l2" name="lang" value="Urdu"> <label for="l2">Urdu</label>
+                    <input type="checkbox" id="l3" name="lang" value="Balochi"> <label for="l3">Balochi</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Program:</b></td>
+                <td>
+                    <select name="program">
+                        <option value="BSCS">BS Computer Science</option>
+                        <option value="BSEE">BS Electrical Engineering</option>
+                        <option value="BSCE">BS Civil Engineering</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>City:</b></td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <tr>
+                <td><b>Date of Birth:</b></td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br><hr><br>
+    <p align="center">Portfolio Project - 2026</p>
+
+</body>
+</html>
